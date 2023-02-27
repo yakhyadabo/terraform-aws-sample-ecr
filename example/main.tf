@@ -5,7 +5,7 @@ locals {
 
 
 module "ecr" {
-  source               = "./module"
+  source               = "../module"
   repository_name      = local.repository_name
   services             = local.services
   force_delete         = true
